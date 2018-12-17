@@ -13,7 +13,7 @@ This tool will capture the real, actual IP and port information if `stdin` is th
 ## usage
 
 ```sh
-$ ./pcap foo.pcap whoami
+$ ./pcap `pwd`/foo.pcap whoami
 riggle
 $ tcpdump -XXr foo.pcap
 reading from file foo.pcap, link-type EN10MB (Ethernet)
